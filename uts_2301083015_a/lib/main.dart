@@ -1,5 +1,6 @@
+
 import 'package:flutter/material.dart';
-import 'screens/pdam_billing_page.dart';
+import 'screens/nilai_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,11 +11,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'SOAL A - PDAM',
+      title: 'SOAL A - UTS',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: PdamBillingPage(),
+      home: NilaiPage(),
     );
   }
 }
